@@ -8,8 +8,7 @@ namespace mittari {
  * @brief Tämä hieno fuktio mittaa maapallon ympäryysmitan ja tallentaa sen muuttujaan
  * 
  */
+    int halkaisija;
     void mittaa();
-
-    static int halkaisija = 0;
 }
 #endif // MITTARI_H

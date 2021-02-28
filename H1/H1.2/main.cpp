@@ -8,7 +8,8 @@ int main() {
     mittari::mittaaYmparysmitta(&tiedot);
     printf("Ymparysmitta on %i\n", tiedot.ymparysmitta);
 
-    mittari::mittaaKaikki(&tiedot);
+    mittari::Tiedot * variptr = mittari::mittaaKaikki(&tiedot);
+    tiedot = *variptr;
     printf("Vari on %i\n", tiedot.vari);
 
     return 0;

@@ -10,6 +10,7 @@ void mittari::mittaaYmparysmitta(Tiedot *output) {
 }
 
 
-void mittari::mittaaKaikki(Tiedot *output) {
+mittari::Tiedot * mittari::mittaaKaikki(Tiedot *output) {
     output = new Tiedot{40075, sininen};
+    return output;
 }

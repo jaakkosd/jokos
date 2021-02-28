@@ -23,7 +23,7 @@ public:
     };
 
     void static mittaaYmparysmitta(Tiedot  * output );
-    void static mittaaKaikki(Tiedot * output );
+    Tiedot static * mittaaKaikki(Tiedot * output );
 };
 
 
